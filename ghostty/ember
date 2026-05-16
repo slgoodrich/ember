@@ -1,0 +1,30 @@
+# Ember — OLED-first Ghostty theme
+# Warm-neutral grayscale + one signal color. Hierarchy by brightness, not hue.
+
+# Base
+background = 000000
+foreground = ededec
+cursor-color = ededec
+cursor-text = 000000
+selection-background = bfbfbe
+selection-foreground = 000000
+
+# Normal ANSI
+palette = 0=#1c1c1b
+palette = 1=#ee0000
+palette = 2=#a8b6a0
+palette = 3=#cbb994
+palette = 4=#8da4b8
+palette = 5=#a89cb8
+palette = 6=#9ab5b8
+palette = 7=#9a9a96
+
+# Bright ANSI
+palette = 8=#4a4a47
+palette = 9=#ff5555
+palette = 10=#bfccb6
+palette = 11=#ddc9a6
+palette = 12=#a3b9cb
+palette = 13=#bfb0cb
+palette = 14=#aec6c9
+palette = 15=#ededec
