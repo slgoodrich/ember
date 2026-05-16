@@ -1,0 +1,43 @@
+// Ember — OLED-first Sublime Text preferences
+// Companion to ember.sublime-color-scheme. Trades visual noise for focus.
+{
+    // Theme & colors
+    "theme": "Adaptive.sublime-theme",
+    "color_scheme": "Packages/User/ember.sublime-color-scheme",
+
+    // Font
+    "font_face": "Geist Mono",
+    "font_size": 13,
+    "line_padding_top": 2,
+    "line_padding_bottom": 2,
+
+    // Hierarchy through brightness — strip visual noise
+    "indent_guide_options": ["draw_normal"],
+    "draw_white_space": ["selection"],
+    "draw_minimap_border": false,
+    "show_definitions": false,
+
+    // Quiet chrome
+    "show_encoding": false,
+    "show_line_endings": false,
+    "show_git_status": true,
+    "show_sidebar_button": false,
+    "bold_folder_labels": false,
+    "hide_tab_scrolling_buttons": true,
+    "hide_new_tab_button": true,
+    "highlight_modified_tabs": true,
+
+    // Behavior
+    "highlight_line": true,
+    "caret_style": "phase",
+    "caret_extra_width": 1,
+    "scroll_past_end": 0.5,
+    "drag_text": false,
+
+    // Sensible defaults
+    "translate_tabs_to_spaces": true,
+    "tab_size": 4,
+    "trim_trailing_white_space_on_save": "all",
+    "ensure_newline_at_eof_on_save": true,
+    "default_line_ending": "unix"
+}

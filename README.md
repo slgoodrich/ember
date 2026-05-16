@@ -40,6 +40,24 @@ On a good OLED display, the terminal disappears into the screen: text floating i
 
    For the full OLED look, also set `window-padding-color = background` so the padding around the terminal matches true black.
 
+### Sublime Text
+
+1. Copy `sublime/ember.sublime-color-scheme` to your Sublime user packages directory:
+   - macOS: `~/Library/Application Support/Sublime Text/Packages/User/`
+   - Linux: `~/.config/sublime-text/Packages/User/`
+   - Windows: `%APPDATA%\Sublime Text\Packages\User\`
+2. Either copy `sublime/Preferences.sublime-settings` into the same directory (replaces your user preferences), or open `Sublime Text → Settings…` and set at minimum:
+
+   ```json
+   {
+       "theme": "Adaptive.sublime-theme",
+       "color_scheme": "Packages/User/ember.sublime-color-scheme",
+       "font_face": "Geist Mono"
+   }
+   ```
+
+   The Adaptive theme inherits the color scheme's background, so the UI chrome picks up Ember's true black automatically.
+
 ### Starship
 
 1. Back up any existing Starship config, then copy `starship/ember.toml` to `~/.config/starship.toml`.

@@ -1,9 +1,13 @@
 -- Ember — OLED-first WezTerm theme
 -- Warm-neutral grayscale + one signal color. Hierarchy by brightness, not hue.
 
+local wezterm = require 'wezterm'
+
 local M = {}
 
 function M.apply(config)
+  config.font = wezterm.font('Geist Mono')
+
   -- Designed palette: warm-neutral grayscale + one signal color
   -- Hierarchy by brightness, cool-desaturated accent family, warm outlier for numbers
   config.colors = {

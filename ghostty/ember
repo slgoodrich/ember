@@ -1,6 +1,9 @@
 # Ember — OLED-first Ghostty theme
 # Warm-neutral grayscale + one signal color. Hierarchy by brightness, not hue.
 
+# Font
+font-family = Geist Mono
+
 # Base
 background = 000000
 foreground = ededec
